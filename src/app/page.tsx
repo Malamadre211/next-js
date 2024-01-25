@@ -1,5 +1,4 @@
 'use client';
-import styles from "./page.module.css";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -16,9 +15,9 @@ export default function Home() {
   }, []);
 
   return (
-    <main className={styles.main}>
-      <h1 className={styles.title}>Pilotes</h1>
-      <div className={styles.grid}>
+    <main>
+      <h1 >Pilotes</h1>
+      <div>
         {data.map((pilote: {id: string, name: string}) => (
           <a
             key={pilote.id}
