@@ -1,1 +1,4 @@
 POST http://localhost:3000/api/pilotes
+
+###
+GET https://next-o106iii4y-malamadre211.vercel.app/api/pilotes/api/pilotes
